@@ -61,6 +61,8 @@ public class 打地鼠 {
             System.out.println();
             arr[rand_num]='0';
         }
-
+        System.out.println("score="+score);
+        System.out.println("打中了"+ok+"次");
+        System.out.println("没打中"+notok+"次");
     }
 }
